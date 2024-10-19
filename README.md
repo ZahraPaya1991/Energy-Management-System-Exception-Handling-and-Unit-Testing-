@@ -88,19 +88,17 @@ Below are screenshots of key project results, such as successful unit test execu
 1. **Unit Test Results**:
    - A screenshot showing the successful execution of all unit tests, verifying that exception handling works as expected.
 
-   ![Unit Test Results](https://fhdoprod-my.sharepoint.com/:i:/g/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/EcOSB0Pv0H5PhcCyO_fe1SYB20abuvtSPkeRRfYBriIg1A?e=5MiuMy)
+   ![JUnit Test Results](https://github.com/Mdeskn/Energy-Management-System-Exception-Handling-and-Unit-Testing-/raw/main/imgs/JUnit%20Test%20Results%20(All%20Tests%20Passing).jpg)
 
 2. **Triggering and Capturing `IOException` in `DataExchangeSimulation`**:
    - A screenshot showing the process of simulating a data exchange error and capturing an `IOException`.
 
-   ![IOException in DataExchangeSimulation](https://fhdoprod-my.sharepoint.com/:i:/g/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/Eahw5HDM3iBJs_iaNKKcDrYBPUhddofgZCDGULw-QQKCVA?e=6Z0MN8)
+   ![Triggering and Capturing IOException](https://github.com/Mdeskn/Energy-Management-System-Exception-Handling-and-Unit-Testing-/raw/main/imgs/Triggering%20and%20Capturing%20IOException%20in%20DataExchangeSimulation.jpg)
 
 3. **Triggering and Capturing `RethrowException`**:
    - A screenshot showing the re-throwing of an exception in the `RethrowExceptionHandler`, along with the stack trace and custom message.
 
-   ![RethrowException Capturing](https://fhdoprod-my.sharepoint.com/:i:/g/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/EQ2sOPny6vdCmMJP6moIEWMBFlBXzBmZ4w6Nmqq6YVU-EQ?e=LdBKYp)
-
-   *(Make sure to update these paths if they change in the future.)*
+   ![Triggering and Capturing RethrowException](https://github.com/Mdeskn/Energy-Management-System-Exception-Handling-and-Unit-Testing-/raw/main/imgs/Triggering%20and%20Capturing%20RethrowException.jpg)
 
 ---
 
