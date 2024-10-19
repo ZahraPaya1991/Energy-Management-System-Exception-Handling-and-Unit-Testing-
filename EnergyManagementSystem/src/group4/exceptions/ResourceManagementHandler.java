@@ -8,18 +8,21 @@ import java.nio.file.Paths;
 
 public class ResourceManagementHandler {
 
-    // Method to manage resources (e.g., reading a log file)
-    public void manageResources() throws IOException {
-        // Use relative path instead of absolute path
-        Path filePath = Paths.get("logs", "sample.txt");
+    // Modified method to accept a file path as an argument
+    public void manageResources(String filePath) throws IOException {
+        if (filePath == null) {
+            throw new IOException("Error handling resource: null");
+        }
+
+        Path path = Paths.get(filePath);
 
         // Ensure the file exists, otherwise throw an IOException
-        if (!Files.exists(filePath)) {
-            throw new IOException("Error handling resource: " + filePath.toAbsolutePath());
+        if (!Files.exists(path)) {
+            throw new IOException("Error handling resource: " + path.toAbsolutePath());
         }
 
         // Open the file using a FileReader
-        try (FileReader fileReader = new FileReader(filePath.toFile())) {
+        try (FileReader fileReader = new FileReader(path.toFile())) {
             // Handle file reading here
             System.out.println("File read successfully.");
         }
